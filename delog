@@ -1,0 +1,4 @@
+#!/bin/sh
+VAR1=`date "+%y" -d year`
+VAR2=log${VAR1:1:1}*.bcm
+rm  /bcm/log/$VAR2

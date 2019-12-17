@@ -1,4 +1,6 @@
 #!/bin/sh
+# delog by Hiro JH4XSY/1. Dec 2019
+#
 VAR1=`date "+%y" -d year`
 VAR2=log${VAR1:1:1}*.bcm
 rm  /bcm/log/$VAR2
